@@ -1,0 +1,8 @@
+imports:
+- path: lib/templates/route.py
+  name: route.py
+- path: sandbox-dev-routes.py
+
+resources:
+- name: sandbox-dev-routes
+  type: sandbox-dev-routes.py

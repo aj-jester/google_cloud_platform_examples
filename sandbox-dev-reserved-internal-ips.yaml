@@ -1,0 +1,8 @@
+imports:
+- path: lib/templates/reserve-internal-ip.py
+  name: reserve-internal-ip.py
+- path: sandbox-dev-reserved-internal-ips.py
+
+resources:
+- name: sandbox-dev-reserved-internal-ips
+  type: sandbox-dev-reserved-internal-ips.py

@@ -1,0 +1,9 @@
+imports:
+- path: lib/templates/mongodb-shard.py
+  name: mongodb-shard.py
+- path: lib/helpers/compute.py
+- path: sandbox-dev-fe-mongodb-shards.py
+
+resources:
+- name: sandbox-dev-fe-mongodb-shards
+  type: sandbox-dev-fe-mongodb-shards.py

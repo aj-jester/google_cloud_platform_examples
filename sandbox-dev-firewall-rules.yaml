@@ -1,0 +1,8 @@
+imports:
+- path: lib/templates/firewall.py
+  name: firewall.py
+- path: sandbox-dev-firewall-rules.py
+
+resources:
+- name: sandbox-dev-firewall-rules
+  type: sandbox-dev-firewall-rules.py

@@ -1,0 +1,15 @@
+imports:
+- path: lib/templates/basic-instances.py
+  name: basic-instances.py
+- path: lib/templates/route.py
+  name: route.py
+- path: lib/templates/firewall.py
+  name: firewall.py
+- path: lib/files/nat-gw/startup-script.sh
+  name: startup-script.sh
+- path: lib/helpers/compute.py
+- path: sandbox-dev-nat-gw.py
+
+resources:
+- name: sandbox-dev-nat-gw
+  type: sandbox-dev-nat-gw.py

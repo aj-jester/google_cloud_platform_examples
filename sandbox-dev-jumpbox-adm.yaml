@@ -1,0 +1,9 @@
+imports:
+- path: lib/templates/basic-instances.py
+  name: basic-instances.py
+- path: lib/helpers/compute.py
+- path: sandbox-dev-jumpbox-adm.py
+
+resources:
+- name: sandbox-dev-jumpbox-adm
+  type: sandbox-dev-jumpbox-adm.py

@@ -1,0 +1,13 @@
+imports:
+- path: lib/templates/basic-instances.py
+  name: basic-instances.py
+- path: lib/helpers/compute.py
+- path: sandbox-dev-ppt-server.py
+- path: lib/files/generic/startup-script.sh
+  name: startup-script.sh
+- path: lib/templates/firewall.py
+  name: firewall.py
+
+resources:
+- name: sandbox-dev-ppt-server
+  type: sandbox-dev-ppt-server.py
